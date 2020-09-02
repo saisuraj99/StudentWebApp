@@ -1,0 +1,71 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>Validation</servlet-name>
+		<display-name>Validation</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.Validation</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Edit</servlet-name>
+		<display-name>Edit</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.Edit</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddStudent</servlet-name>
+		<display-name>AddStudent</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.AddStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Delete</servlet-name>
+		<display-name>Delete</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.Delete</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<display-name>Register</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.Register</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<display-name>Logout</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Validation</servlet-name>
+		<url-pattern>/validation</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Edit</servlet-name>
+		<url-pattern>/edit</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>AddStudent</servlet-name>
+		<url-pattern>/addstudent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Delete</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+</web-app>
